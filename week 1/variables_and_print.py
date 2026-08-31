@@ -3,7 +3,7 @@ def main():
     # its name/identifier and assign (=) a
     # value to it.
     name1 = "Eun Sik"
-    name2 = "John"
+    name2 = 'John'
     user_age = 20
 
     # We can command the computer to 
