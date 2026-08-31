@@ -5,7 +5,7 @@ def main():
     # 3. Return/Evaluate the input expression to the value inputted
     user_name = input("Enter your name: ")
 
-    print("Hello", end="") # print
+    print("Hello", end=" ") # print
     # " " is a single Empty space
     # "" is Nothing/Empty string
     print(user_name) # print line/print new line
