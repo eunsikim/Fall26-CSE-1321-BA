@@ -13,8 +13,13 @@ def main():
 
     if username == "admin" and password == "password123":
         print("Login Successful!")
-    else:
-        print("Login was not successful!")
+    else: # 
+        if username == "admin":
+            print("The password is incorrect")
+        elif password == "password123":
+            print("The username is incorrect")
+        else:
+            print("Username and Password are incorrect")
 
 if __name__ == "__main__":
     main()
