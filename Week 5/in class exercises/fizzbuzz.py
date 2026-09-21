@@ -8,6 +8,25 @@
 # - For every number divisible by both three and five, the program
 #   prints "FizzBuzz" instead of the number
 
+# Sample output:
+"""
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+"""
+
 def main():
     pass
 
