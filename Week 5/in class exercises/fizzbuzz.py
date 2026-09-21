@@ -1,0 +1,15 @@
+# - Ask the user to enter a number.
+# - The program will print out a sequence of number starting 
+#   from 1 and ending at the value the user inputs
+# - For every number divisible by three, the program prints 
+#   "Fizz" instead of the number
+# - For every number divisible by five, the program prints
+#   "Buzz" instead of the number
+# - For every number divisible by both three and five, the program
+#   prints "FizzBuzz" instead of the number
+
+def main():
+    pass
+
+if __name__ == "__main__":
+    main()
