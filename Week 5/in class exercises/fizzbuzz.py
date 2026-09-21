@@ -28,7 +28,21 @@ FizzBuzz
 """
 
 def main():
-    pass
+    end = int(input("Enter a number: "))
+
+    current = 1
+
+    while current <= end:
+        if current % 3 == 0 and current % 5 == 0:
+            print("FizzBuzz")
+        elif current % 3 == 0:
+            print("Fizz")
+        elif current % 5 == 0:
+            print("Buzz")
+        else:
+            print(current)
+            
+        current += 1
 
 if __name__ == "__main__":
     main()
