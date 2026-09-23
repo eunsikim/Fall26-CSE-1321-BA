@@ -8,7 +8,29 @@
 # then output if the password is valid or not
 
 def main():
-    pass
+    password = input("Enter your password: ")
+
+    char_count = 0
+
+    length_check = False
+    special_char_check = False
+    number_check = False
+
+    # Check password length
+    for character in password:
+        char_count += 1
+    
+    # Check special characters
+
+    # Check numerical characters
+
+    if char_count >= 8:
+        length_check = True
+
+    if length_check and special_char_check and number_check:
+        print("Valid")
+    else:
+        print("Not Valid")
 
 if __name__ == "__main__":
     main()
