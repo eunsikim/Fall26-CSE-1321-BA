@@ -19,13 +19,13 @@ def main():
     # Check password length
     for character in password:
         char_count += 1
+
+    if char_count >= 8:
+            length_check = True
     
     # Check special characters
 
     # Check numerical characters
-
-    if char_count >= 8:
-        length_check = True
 
     if length_check and special_char_check and number_check:
         print("Valid")
