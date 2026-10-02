@@ -3,6 +3,8 @@
 # sentence (delimiter) and then output
 # the separated sentence.
 
+# Do not use the `split()` function
+
 # Sample output
 # Enter a sentence: Hello,World,CSE,1321
 # Enter a delimiter: ,
