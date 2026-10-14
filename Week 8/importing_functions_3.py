@@ -2,7 +2,7 @@
 # and we do not need to refer to the file to use these functions
 from my_function import hello_world, calculation
 
-import my_math
+import function_library.my_math
 
 def main():
     hello_world() # Notice we dont have `my_function.`
