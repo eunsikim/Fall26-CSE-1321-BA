@@ -1,4 +1,4 @@
-from sample import quiz_avg, input_grade, input_bonus, test_policy, final_grade, convert_letter_grade, print_grade
+from test_functions import quiz_avg, input_grade, input_bonus, test_policy, final_grade, convert_letter_grade, print_grade
 
 def main():
     print("Quizzes")
