@@ -1,3 +1,10 @@
+"""
+Alarm Clock
+Create a program where the user is able to enter an 
+X amount of minutes and then print out a message to 
+wake them up at end of the timer.
+"""
+
 import time
 
 def main():
