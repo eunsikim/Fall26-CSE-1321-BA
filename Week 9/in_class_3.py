@@ -13,10 +13,24 @@ at the end of said time, the program should beep
 a sound at 1000 hz for 5 seconds.
 """
 
+import time
+import random
 import winsound
 
-def main():
-    winsound.Beep(500, 2000)
+def timer():
+    minutes = int(input('Enter the number of minutes: '))
 
-if __name__ == "__main__":
-    main()
+    seconds = minutes * 60
+
+    interval_s = 1
+
+    for x in range(int(seconds)):
+        for i in range(random.randint(1,5)):
+            print("Z", end= "")
+        print()
+        time.sleep(interval_s)
+
+    print("WAKE UP!!!")
+    winsound.Beep(1000,5000)
+
+timer()
