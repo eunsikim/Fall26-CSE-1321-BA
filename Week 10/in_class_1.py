@@ -3,8 +3,10 @@ Create a function that takes in a list, each index in this
 list should represent each of these values:
     name,email,department,role,salary,start_date,office
 The function should return the NetID of this person.
+
 NetID Format:
-first character of the firstname, first four characters of lastname, and start_date day
+first character of the firstname, first four characters of 
+lastname, and start_date day
 """
 def main():
     # firstname, lastname,email,department,role,salary,start_date,office
