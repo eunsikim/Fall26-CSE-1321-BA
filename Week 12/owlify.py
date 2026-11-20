@@ -57,7 +57,6 @@ class Album:
             time.sleep(song.song_duration)
             song.stop()
 
-
 class Playlist:
     def __init__(self, title, author, duration):
         self.title = title
